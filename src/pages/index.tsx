@@ -7,7 +7,7 @@ export default function Home() {
         <title>DKC Games - Coming Soon</title>
       </Head>
       <main
-        className="relative flex min-h-screen flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
+        className="relative flex min-h-screen flex-col items-center justify-center bg-center bg-no-repeat bg-contain"
         style={{ backgroundImage: "url('/background.png')" }}
       >
         {/* Black semi-transparent overlay */}
@@ -24,3 +24,4 @@ export default function Home() {
     </>
   );
 }
+
